@@ -20,3 +20,8 @@ D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.dll
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.xml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll.config
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml

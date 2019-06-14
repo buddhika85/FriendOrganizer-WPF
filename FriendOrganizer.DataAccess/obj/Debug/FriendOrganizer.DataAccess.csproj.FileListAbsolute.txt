@@ -7,3 +7,10 @@ D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrga
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialMigration.resources
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache
