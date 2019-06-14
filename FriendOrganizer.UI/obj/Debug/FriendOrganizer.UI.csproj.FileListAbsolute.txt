@@ -18,3 +18,5 @@ D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.CopyComplete
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.xml
