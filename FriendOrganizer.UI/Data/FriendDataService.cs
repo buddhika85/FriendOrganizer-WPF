@@ -3,13 +3,21 @@ using FriendOrganizer.Model;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.Data
 {
     public class FriendDataService : IFriendDataService
     {
-        public async Task<List<Friend>> GetAllAsync()
+        private Func<FriendOrganizerDbContext> _contextCreator;
+
+        public FriendDataService(Func<FriendOrganizerDbContext> contextCreator)
+        {
+            _contextCreator = contextCreator;
+        }
+
+        public async Task<Friend> GetFriendByIdAsync(int friendId)
         {
             try
             {
@@ -20,10 +28,10 @@ namespace FriendOrganizer.UI.Data
                 //yield return new Friend { FirstName = "Rajesh", LastName = "Kuthrapalli", Email = "rajesh@gmail.com" };
                 //yield return new Friend { FirstName = "Penny", LastName = "Hofstater", Email = "penny@gmail.com" };
 
-                using (var ctx = new FriendOrganizerDbContext())
+                using (var ctx = _contextCreator())
                 {
-                    var friends = await ctx.Friends.AsNoTracking().ToListAsync();
-                    return friends;
+                    var friend = await ctx.Friends.AsNoTracking().SingleAsync(x => x.Id == friendId);
+                    return friend;
                 }
             }
             catch (Exception e)

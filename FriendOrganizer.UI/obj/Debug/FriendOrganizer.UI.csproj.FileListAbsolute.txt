@@ -25,3 +25,8 @@ D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xm
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml

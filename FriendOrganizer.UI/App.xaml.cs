@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using Autofac;
 using FriendOrganizer.UI.Data;
 using FriendOrganizer.UI.Startup;
@@ -14,20 +15,28 @@ namespace FriendOrganizer.UI
         private void App_OnStartup(object sender, StartupEventArgs e)
         {
 
-            var boostrapper = new Bootstrapper();
-            var container = boostrapper.Bootstrap();
+            try
+            {
+                var boostrapper = new Bootstrapper();
+                var container = boostrapper.Bootstrap();
 
-            // without IOC
-            //var mainWindow = new MainWindow(
-            //    new MainViewModel(
-            //        new FriendDataService()
-            //    )
-            //);
+                // without IOC
+                //var mainWindow = new MainWindow(
+                //    new MainViewModel(
+                //        new FriendDataService()
+                //    )
+                //);
 
-            // with IOC
-            var mainWindow = container.Resolve<MainWindow>();
+                // with IOC
+                var mainWindow = container.Resolve<MainWindow>();
 
-            mainWindow.Show();
+                mainWindow.Show();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
         }
     }
 }
