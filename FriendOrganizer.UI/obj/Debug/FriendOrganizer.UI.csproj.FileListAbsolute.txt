@@ -30,3 +30,5 @@ D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\GeneratedInternalT
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
 D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Prism.dll
+D:\Projects_Mine\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Prism.xml
